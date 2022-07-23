@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <style>
+    body{background: url(https://images.app.goo.gl/RZGfpFtfGoNBnaCn7);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    h3{text-align: center;}
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="tet-danger">Travel with us</h3>
+
+    <div>
+        <label for="distance">Distance you are travelling</label>
+       <input type="text" id="distance" placeholder="Distance in km">
+       <br>
+       <label for="people">Number of people travelling</label>
+       <input type="text" id="people" placeholder="Number of people">
+       <br>
+       <!--<label for="amount">Total amount</label>
+       <input type="text" value="amount" id="amount">-->
+       <button on click="fareCalculate()" class="btn btn-success">Total amount</button>
+       <div id="amount"></div>
+
+    </div>
+    <script src="travel.js"></script>
+</body>
+</html>
