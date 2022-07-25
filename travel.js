@@ -26,7 +26,7 @@ function fareCalculate(){
         results.textContent = totalFare;
     }
         else{
-            results.textContent = 'Total Amount: Ksh$(totalFare)';
+            results.textContent = `Total Amount: Ksh${totalFare}`;
         }
 }
 function getTotalFare(){
